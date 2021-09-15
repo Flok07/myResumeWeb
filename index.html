@@ -9,15 +9,85 @@
 </head>
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg navbar-dark 
+        bg-black">
+            <div class="container">
+              <a class="navbar-brand" href="#">RESUME</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Skill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experience</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Course Taken</a></li>
+                      <li><a class="dropdown-item" href="#">Training</a></li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    
-    <main>
 
-    </main>
+    <main class="flex-shrink-0">
+        <div class="container">
+          <h1 class="mt-5">Welcome to My Resume</h1>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis esse, dicta quod qui aut vel quaerat, neque voluptatibus maxime, ullam deleniti asperiores. Id maxime hic alias iure laborum, cum eos?</code>.</p>
+          <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus suscipit, praesentium natus consectetur voluptate nesciunt inventore. Nulla quasi maiores excepturi? Saepe quaerat quos eaque ea cupiditate nesciunt odio, nobis reiciendis!</p>
+          <!-- carousel -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/spagetti1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/spagetti2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/spagetti3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </main>
 
     <footer>
-
+        <footer class="footer mt-auto py-3 bg-black fixed-bottom">
+            <div class="container">
+              <span class="text-muted">@copy right by Chompoonuch</span>
+            </div>
+          </footer>
     </footer>
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
